@@ -74,6 +74,11 @@ public class InvestingHurdleBootstrapper {
 		System.out.println("Cost of acquisition : " + this.equityLoader.getTotalStcgBuy());
 		System.out.println("STCG = " + (this.equityLoader.getTotalStcgSell()-this.equityLoader.getTotalStcgBuy()));
 		System.out.println("STCG total : " + this.equityLoader.getTotalStcg());
+		System.out.println("STCG Q1 = " + this.equityLoader.getStcgQ1());
+		System.out.println("STCG Q2 = " + this.equityLoader.getStcgQ2());
+		System.out.println("STCG Q3 = " + this.equityLoader.getStcgQ3());
+		System.out.println("STCG Q4 = " + this.equityLoader.getStcgQ4());
+		System.out.println("STCG Q5 = " + this.equityLoader.getStcgQ5());
 		
 		System.out.println("\n$$$$$$$$$********  SPECULATION  ********$$$$$$$$$\n");
 		System.out.println("Full Value of consideration : " + this.equityLoader.getTotalIntraSell());
